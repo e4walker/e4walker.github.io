@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .videoSet {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        }
+        .textMain{
+        position: fixed;
+        left: 30vw;
+        top: 30vh;
+        font-family: Arial;
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        }
+        .textSub{
+        position: fixed;
+        left: 30vw;
+        top: 30vh;
+        font-family: Arial;
+        color: white;
+        font-size: 15px;
+        line-height: 12.5;
+        }
+        .textExtra{
+        position: fixed;
+        right: 10vw;
+        top: 10vh;
+        font-family: Arial;
+        color: white;
+        font-size: 15px;
+        line-height: 0.2;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay loop muted class="videoSet">
+        <source src="background.mp4" type="video/mp4">
+    </video>
+    <div>
+        <p class="textMain">Elijah Walker</p>
+        <p class="textSub">Welcome to my homepage!</p>
+    </div>
+    <div class="textExtra">
+        <p><i class="fa-solid fa-user"></i> My Info</p>
+        <p><i class="fa-regular fa-file-lines"></i> My Resume</p>
+        <p><i class="fa-solid fa-star"></i> My Hobbies</p>
+        <p><i class="fa-solid fa-code-branch"></i> My Work</p>
+    </div>
+</body>
+</html>
